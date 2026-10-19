@@ -2,6 +2,7 @@ name: Basic CI Workflow
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   basic-check:
