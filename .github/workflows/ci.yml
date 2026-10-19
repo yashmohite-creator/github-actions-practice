@@ -1,0 +1,15 @@
+name: Basic CI Workflow
+
+on:
+  push:
+
+jobs:
+  basic-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Display success message
+        run: echo "Hello! My first GitHub Actions workflow is working."
+
+      - name: Check Python version
+        run: python3 --version
