@@ -15,5 +15,5 @@ jobs:
       - name: Check Python version
         run: python3 --version
 
-      - name: Display current directory
-        run: pwd
+      - name: Test troubleshooting
+        run: command_that_does_not_exist
